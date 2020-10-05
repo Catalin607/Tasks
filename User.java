@@ -35,7 +35,7 @@ public class User {
     }
 
     public void setLastname(String lastname) {
-        if(firstname.length()>=3){
+        if(lastname.length()>=3){
         this.lastname = lastname;}
         else {System.out.println("The lastname is too short!");
                 
@@ -80,7 +80,7 @@ public class User {
     }
 
     public void setDay(int day) {
-        if (day >= 01 && day <= 31) {
+        if (day >= 1 && day <= 31) {
             this.day = day;
         } else {
             System.out.println("Wrong date");
@@ -93,7 +93,7 @@ public class User {
     }
 
     public void setMonth(int month) {
-        if (month >= 01 && month <= 12) {
+        if (month >= 1 && month <= 12) {
             this.month = month;
         } else {
             System.out.println("Wrong month");

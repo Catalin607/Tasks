@@ -36,7 +36,7 @@ public class Application {
     }
 
     public void setLastname(String lastname) {
-        if (firstname.length() >= 3) {
+        if (lastname.length() >= 3) {
             this.lastname = lastname;
         } else {
             System.out.println("The lastname is too short!");
